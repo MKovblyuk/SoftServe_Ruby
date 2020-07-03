@@ -1,2 +1,2 @@
-# SoftServe_Ruby
+# SoftServe_Ruby.
  
