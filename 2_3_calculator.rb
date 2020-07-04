@@ -52,7 +52,11 @@ class Calculator
         puts (a.to_f * b.to_f)
       when 4
         # тут слід дописати код для виконання відповідної оператції
-        puts (a.to_f / b.to_f)
+        if(b.to_f != 0)
+          puts (a.to_f / b.to_f)
+        else
+          puts "Ділення на нуль"
+        end
       when 5
         # тут слід дописати код для виконання відповідної оператції
         puts (a.to_f % b.to_f)
